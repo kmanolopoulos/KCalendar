@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KCalendar</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Exit</string>
+    <string name="prev_choice">Previous</string>
+    <string name="next_choice">Next</string>
+    <string name="schedule_string">Schedule for</string>
+    <string name="activity_view_day_title">View schedule</string>
+    <string name="activity_edit_day_title">Edit schedule</string>
+    <string name="activity_about_title">About Program</string>
+    <string name="edit_choice">Edit schedule</string>
+    <string name="ToggleOn">Day off</string>
+    <string name="ToggleOff">Working Day</string>
+    <string name="ok_choice">OK</string>
+    <string name="cancel_choice">Cancel</string>
+    <string name="exit_choice">Exit</string>
+    <string name="about_text">by Kanaris Manolopoulos\n\n@Copyright 2014-2015</string>
+
+</resources>

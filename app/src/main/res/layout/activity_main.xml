@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/general_bg" >
+
+    <TextView
+        android:id="@+id/currentmonth"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/common_text_color"
+        android:background="@drawable/general_text_shape" />
+
+    <Button
+        android:id="@+id/leftbutton"
+        android:layout_width="96dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/currentmonth"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/prev_choice"
+        android:textColor="@color/common_button_color"
+        android:background="@drawable/general_button_shape" 
+        android:onClick="DecreaseMonth" />
+
+    <Button
+        android:id="@+id/rightbutton"
+        android:layout_width="96dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/currentmonth"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/next_choice"
+        android:textColor="@color/common_button_color"
+        android:background="@drawable/general_button_shape"
+        android:onClick="IncreaseMonth" />
+
+    <GridView
+    	android:id="@+id/calendar"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_below="@id/leftbutton"
+    	android:gravity="center"
+    	android:numColumns="7"
+    	android:verticalSpacing="5dp"
+    	android:horizontalSpacing="5dp"
+    	android:columnWidth="35dp"
+    	android:stretchMode="columnWidth" />
+
+</RelativeLayout>

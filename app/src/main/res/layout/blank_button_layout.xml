@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button
+	    android:id="@+id/blank_button_layout"
+	    android:textColor="@color/empty_text_color"
+	    android:textSize="12sp"
+	    android:background="@android:color/transparent"
+	    android:layout_width="40dip"
+	    android:layout_height="30dip" />
+
+</LinearLayout>

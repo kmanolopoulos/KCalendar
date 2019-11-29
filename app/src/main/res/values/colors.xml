@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="day_text_color">#FFFF00</color>
+    <color name="date_text_color">#FFFF00</color>
+    <color name="empty_text_color">#111111</color>
+    <color name="common_text_color">#FFFF00</color>
+    <color name="common_button_color">#FFFF00</color>
+    <color name="day_button_color">#0000FF</color>
+    <color name="date_button_color">#444444</color>
+    <color name="general_text_color">#0000FF</color>
+    <color name="general_button_color">#222222</color>
+    <color name="actionbar_text">#00CC00</color>
+    <color name="actionbar_background">#666666</color>
+</resources>
